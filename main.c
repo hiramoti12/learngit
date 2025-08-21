@@ -1,5 +1,9 @@
 #include<stdio.h>
+#include "mymath.c"
 
 void main(){
-	printf("hello world\n");
+	int a = 12;
+	int b = 10;
+	int sum = add(a, b);
+	printf("Result = %d\n", sum);
 }
