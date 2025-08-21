@@ -1,1 +1,4 @@
-console.log('learning to merge code')
+console.log('learning to merge code');
+const name = "variable added";
+
+
